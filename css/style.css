@@ -1,0 +1,128 @@
+.container {
+    width: 1024px;
+    height: 800px;
+    background: url("../img/484984.jpg");
+    background-size: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.clearfix {
+    overflow: auto;
+}
+.build {
+
+}
+.build i:nth-child(1) {
+    position: absolute;
+    color: yellow;
+    font-size: 90px;
+    top: 690px;
+    left: 100px;
+}
+.build i:nth-child(2) {
+    position: absolute;
+    color: green;
+    font-size: 50px;
+    top: 655px;
+    left: 153px;
+}
+.build i:nth-child(3) {
+    position: absolute;
+    color: darkmagenta;
+    font-size: 100px;
+    top: 670px;
+    left: 205px;
+}
+.build i:nth-child(4) {
+    position: absolute;
+    color: blue;
+    font-size: 150px;
+    top: 620px;
+    left: 300px;
+}
+.build i:nth-child(5) {
+    position: absolute;
+    color: darkgreen;
+    font-size: 90px;
+    top: 680px;
+    right: 100px;
+}
+.sky  i:nth-child(1){
+    position: absolute;
+    color: yellow;
+    font-size: 150px;
+    top: 20px;
+    left: 300px;
+}
+.sky  i:nth-child(2){
+    position: absolute;
+    color: lightskyblue;
+    font-size: 150px;
+    top: 120px;
+    left: 100px;
+}
+.sky  i:nth-child(3){
+    position: absolute;
+    color: lightskyblue;
+    font-size: 100px;
+    top: 170px;
+    left: 400px;
+}
+.sky  i:nth-child(4){
+    position: absolute;
+    color: lightskyblue;
+    font-size: 150px;
+    top: 150px;
+    left: 60%;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fa-stack i:nth-child(1){
+       color: darkcyan;
+       font-size: 300px;
+       top: 470px;
+       left: 450px;
+       position: absolute;
+   }
+.fa-stack i:nth-child(2){
+    color:navajowhite;
+    font-size: 50px;
+    top: 670px;
+    left: 495px;
+    position: absolute;
+    animation-name: movech;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0% {top: 150px;
+        left: 60%;}
+    25% {top: 160px;
+        left: 50%;
+        color: dodgerblue;}
+    50% {top: 140px;
+        left: 40%;
+        color: lightblue;}
+    75% {top: 120px;
+        left: 30%;
+        color: lightskyblue;}
+    100% {top: 150px;
+        left: 20%;
+        color: lightsteelblue;}
+}
+
+@keyframes movech {
+    0% {top: 670px;
+        left: 495px;}
+    50% {top: 350px;
+        left: 495px;
+        color: greenyellow;}
+    100% {top: 670px;
+        left: 495px;
+        color: lightseagreen;}
+}
